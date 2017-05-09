@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinNav.MainPage">
+
+    
+    <StackLayout>
+
+        <Label Text="Welcome to Xamarin Forms!"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" />
+
+        <Button Command="{Binding GoToPage1}" Text="Go To Page 1" ></Button>
+        <Button Command="{Binding GoToPage2}" Text="Go To Page 2" ></Button>
+        <Button Command="{Binding GoToPage3}" Text="Go To Page 3" ></Button>
+
+    </StackLayout>
+
+</ContentPage>
